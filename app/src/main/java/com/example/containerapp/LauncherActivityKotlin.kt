@@ -10,7 +10,7 @@ import android.widget.Button
 import co.ix.vzmve.sdk.MultiViewExperienceSdk
 import co.ix.vzmve.sdk.MultiViewSdkModule
 
-class MainActivity : AppCompatActivity() {
+class LauncherActivityKotlin : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -1,5 +1,4 @@
 <resources>
     <string name="app_name">ContainerApp</string>
     <string name="next">Next</string>
-    <string name="title_dynamicfeature">MultiView</string>
 </resources>

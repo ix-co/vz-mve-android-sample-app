@@ -66,5 +66,40 @@
       <option name="name" value="maven7" />
       <option name="url" value="https://maven.pkg.github.com/ryot-holomoji/holomoji-sdk-android" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven6" />
+      <option name="name" value="maven6" />
+      <option name="url" value="https://artifactory.ixinternal.com/artifactory/google-filament" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven8" />
+      <option name="name" value="maven8" />
+      <option name="url" value="https://artifactory.ixinternal.com/artifactory/holomoji-sdk-android" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven9" />
+      <option name="name" value="maven9" />
+      <option name="url" value="https://artifactory.ixinternal.com/artifactory/opencv-sdk-android" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven5" />
+      <option name="name" value="maven5" />
+      <option name="url" value="https://artifactory.ixinternal.com/artifactory/fritz" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven7" />
+      <option name="name" value="maven7" />
+      <option name="url" value="https://artifactory.ixinternal.com/artifactory/google-sceneform-android-sdk" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven4" />
+      <option name="name" value="maven4" />
+      <option name="url" value="https://artifactory.ixinternal.com/artifactory/jitpack" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven3" />
+      <option name="name" value="maven3" />
+      <option name="url" value="https://artifactory.ixinternal.com/artifactory/PhenixRTS" />
+    </remote-repository>
   </component>
 </project>

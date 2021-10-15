@@ -68,6 +68,9 @@ project.ext {
     customTabsVersion = '1.0.0'
 
     licensesAssetName = "licenses.json"
+
+    ix_artifactory_username = "verizon-multi-view-experience"
+    ix_artifactory_password = "8muUGdg9hQcjnFpu"
 }
 
 allprojects {
@@ -77,53 +80,64 @@ allprojects {
         maven {
             url 'https://artifactory.ixinternal.com/artifactory/repo'
             credentials {
-                username = "verizon-multi-view-experience"
-                password = "8muUGdg9hQcjnFpu"
+                username rootProject.ext.ix_artifactory_username
+                password rootProject.ext.ix_artifactory_password
             }
         }
         maven {
             url 'https://artifactory.ixinternal.com/artifactory/verizon-multi-view-experience'
             credentials {
-                username = "verizon-multi-view-experience"
-                password = "8muUGdg9hQcjnFpu"
+                username rootProject.ext.ix_artifactory_username
+                password rootProject.ext.ix_artifactory_password
             }
         }
         maven {
-            url "https://maven.pkg.github.com/PhenixRTS/AndroidSDK"
+            url "https://artifactory.ixinternal.com/artifactory/PhenixRTS"
             credentials {
-                username "jmarsicano"
-                password "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"
+                username rootProject.ext.ix_artifactory_username
+                password rootProject.ext.ix_artifactory_password
             }
         }
         maven {
-            url "https://fritz.mycloudrepo.io/public/repositories/android"
-        }
-        maven {
-            url 'https://maven.pkg.github.com/vmi-platform/google-filament'
+            url 'https://artifactory.ixinternal.com/artifactory/jitpack'
             credentials {
-                username "javier-marsicano-ix"
-                password "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"
+                username rootProject.ext.ix_artifactory_username
+                password rootProject.ext.ix_artifactory_password
             }
         }
         maven {
-            url 'https://maven.pkg.github.com/vmi-platform/google-sceneform-android-sdk'
+            url "https://artifactory.ixinternal.com/artifactory/fritz"
             credentials {
-                username "javier-marsicano-ix"
-                password "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"
+                username rootProject.ext.ix_artifactory_username
+                password rootProject.ext.ix_artifactory_password
             }
         }
         maven {
-            url 'https://maven.pkg.github.com/ryot-holomoji/holomoji-sdk-android'
+            url 'https://artifactory.ixinternal.com/artifactory/google-filament'
             credentials {
-                username "javier-marsicano-ix"
-                password "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"
+                username rootProject.ext.ix_artifactory_username
+                password rootProject.ext.ix_artifactory_password
             }
         }
         maven {
-            url 'https://maven.pkg.github.com/ryot-holomoji/opencv-sdk-android'
+            url 'https://artifactory.ixinternal.com/artifactory/google-sceneform-android-sdk'
             credentials {
-                username "javier-marsicano-ix"
-                password "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"
+                username rootProject.ext.ix_artifactory_username
+                password rootProject.ext.ix_artifactory_password
+            }
+        }
+        maven {
+            url 'https://artifactory.ixinternal.com/artifactory/holomoji-sdk-android'
+            credentials {
+                username rootProject.ext.ix_artifactory_username
+                password rootProject.ext.ix_artifactory_password
+            }
+        }
+        maven {
+            url 'https://artifactory.ixinternal.com/artifactory/opencv-sdk-android'
+            credentials {
+                username rootProject.ext.ix_artifactory_username
+                password rootProject.ext.ix_artifactory_password
             }
         }
     }

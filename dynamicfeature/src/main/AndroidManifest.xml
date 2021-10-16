@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="com.javiermarsicano.dynamicfeature"
+<manifest package="com.example.containerapp.dynamicfeature"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:dist="http://schemas.android.com/apk/distribution">
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:extractNativeLibs="true"
+        tools:replace="android:extractNativeLibs">
+        <activity android:name=".ProxyActivity"
+            android:parentActivityName="com.example.containerapp.MainActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.VIEW" />
+        </intent-filter>
+        </activity>
+    </application>
 
     <dist:module
         dist:instant="false"

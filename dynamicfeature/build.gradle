@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.javiermarsicano.dynamicfeature"
-        minSdkVersion 23
+        minSdkVersion 28
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -22,6 +22,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
 }
 
 dependencies {
@@ -34,4 +38,6 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.3.1'
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.annotation:annotation:1.2.0'
+    implementation "com.google.android.play:core:1.10.2"
+    implementation "com.google.android.play:core-ktx:1.8.1"
 }

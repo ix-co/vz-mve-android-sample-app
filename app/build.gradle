@@ -44,10 +44,6 @@ android {
 
 dependencies {
 
-    implementation ("co.ix.vzmve:vzmve-nfl:1.0.34.79") {
-        exclude group: "com.google.auto.value", module: "auto-value"
-    }
-
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
     implementation 'androidx.core:core:1.0.0'
     implementation 'androidx.appcompat:appcompat:1.0.0'
@@ -64,12 +60,8 @@ dependencies {
     implementation "androidx.fragment:fragment:$fragmentVersion"
     implementation "androidx.core:core-ktx:$ktxVersion"
     implementation "androidx.fragment:fragment-ktx:$fragmentKtxVersion"
-    implementation "com.google.android.gms:play-services-base:$playServicesBaseVersion"
-    implementation "com.google.android.gms:play-services-location:$rootProject.ext.playServicesLocationVersion"
-
-    //Android architecture components
-    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycleVersion"
-    implementation "androidx.lifecycle:lifecycle-common-java8:$lifecycleVersion"
+    implementation "com.google.android.play:core:1.10.2"
+    implementation "com.google.android.play:core-ktx:1.8.1"
 
 
 }

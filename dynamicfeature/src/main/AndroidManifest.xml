@@ -13,6 +13,12 @@
             <action android:name="android.intent.action.VIEW" />
         </intent-filter>
         </activity>
+        <activity
+            android:name="co.ix.vzmve.screen.VzmveActivity"
+            android:configChanges="screenLayout|screenSize|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/VzmveTheme"
+            tools:ignore="LockedOrientationActivity" />
     </application>
 
     <dist:module

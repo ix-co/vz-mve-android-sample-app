@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.omnigon.android:data:4.4.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d060270cbde0c49d4a2d85467cc64b34/jetified-data-4.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d060270cbde0c49d4a2d85467cc64b34/jetified-data-4.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d060270cbde0c49d4a2d85467cc64b34/jetified-data-4.4.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.omnigon.android/data/4.4.0/4180207c686aaf9dbb2a56231028bbbdc9b484b6/data-4.4.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.omnigon.android/data/4.4.0/d3ed207f7375be1d9d49da5ecb15b7c7fda438c9/data-4.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

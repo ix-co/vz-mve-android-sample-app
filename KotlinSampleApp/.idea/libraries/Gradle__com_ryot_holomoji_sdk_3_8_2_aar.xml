@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.ryot:holomoji-sdk:3.8.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3d736b477f1005149fbbb35c937f46bd/jetified-holomoji-sdk-3.8.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3d736b477f1005149fbbb35c937f46bd/jetified-holomoji-sdk-3.8.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3d736b477f1005149fbbb35c937f46bd/jetified-holomoji-sdk-3.8.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

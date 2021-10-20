@@ -1,0 +1,16 @@
+.iml
+.gradle
+/.sonar
+/local.properties
+/.idea
+.DS_Store
+build
+/captures
+*.iml
+
+# generated sonar options
+/sonar-project.properties
+/sonarlint.json
+
+# do not ignore code style settings
+!.idea/codeStyle*

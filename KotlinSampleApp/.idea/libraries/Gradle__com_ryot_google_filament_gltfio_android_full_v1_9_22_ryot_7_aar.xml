@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.ryot.google-filament:gltfio-android-full:v1.9.22-ryot-7@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c238826a32aca958c80fe20496fd0b42/jetified-gltfio-android-full-v1.9.22-ryot-7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c238826a32aca958c80fe20496fd0b42/jetified-gltfio-android-full-v1.9.22-ryot-7/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c238826a32aca958c80fe20496fd0b42/jetified-gltfio-android-full-v1.9.22-ryot-7/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

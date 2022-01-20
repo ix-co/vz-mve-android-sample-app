@@ -19,55 +19,12 @@ project.ext {
     minSdkVersion = 21
     targetSdkVersion = 30
 
-    kotlinReflectVersion = "1.4.31"
-    appCompatVersion = '1.2.0'
-    recyclerViewVersion = '1.0.0'
-    annotationVersion = '1.0.0'
-    ktxVersion = '1.3.1'
-    fragmentKtxVersion = '1.0.0'
-    constraintLayoutVersion = '2.0.1'
-    fragmentVersion = '1.0.0'
-    materialVersion = '1.2.1'
-    lifecycleVersion = '2.2.0'
+    vzmveVersion = '2.5.42.921'
+    ktxVersion = '1.6.0'
+    appCompatVersion = '1.3.1'
+    constraintLayoutVersion = '2.1.3'
     multidexVersion = '2.0.1'
-    firebaseAnalyticsVersion = '18.0.0'
-    playServicesBaseVersion = '11.0.4'
-    playServicesLocationVersion = '18.0.0'
-    imaVersion = '3.7.4'
-    archComponentsVersion = '1.0.0'
-    flurryVersion = '7.0.0'
-
-    retrofitVersion = '2.9.0'
-    retrofitConverterGsonVersion = '2.9.0'
-    rxKotlinVersion = '2.4.0'
-    rxJavaVersion = '1.1.8'
-    rxAndroidVersion = '2.1.1'
-    moshiVersion = '1.9.3'
-    moshiRetrofitConverterVersion = '2.5.0'
-    timberVersion = '4.7.1'
-    frescoVersion = '2.3.0'
-    okHttpVersion = '4.7.2'
-    daggerVersion = '2.29.1'
-    rxPermissioinsVersion = '0.11'
-
     jUnitVersion = "4.13"
-    mockitoVersion = "3.5.13"
-    mockitoKotlinVersion = "2.2.0"
-    robolectricVersion = "4.3"
-    coreTestingVersion = '2.1.0'
-
-    phenixVersion = '2021.0.0'
-    exoPlayerVersion  = '2.12.0'
-
-    ryotVersion = '3.5.1'
-
-    omnigonDataVersion = '4.4.0'
-    omnigonImageVersion = '2.2.0'
-    omnigonSocialVersion = '2.0.0'
-
-    customTabsVersion = '1.0.0'
-
-    licensesAssetName = "licenses.json"
 
     ix_artifactory_username = "verizon-multi-view-experience"
     ix_artifactory_password = "8muUGdg9hQcjnFpu"

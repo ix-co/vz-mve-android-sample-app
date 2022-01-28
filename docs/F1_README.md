@@ -1,11 +1,11 @@
 # Verizon Multi-View Experience
 
+Latest version is 1.1.42.93
+
 Verizon Multi-View Experience is library which includes such functionality:
  * Multi-camera live streaming (several simultaneous video streams)
  * Multi-camera replay streaming
  * Data Visualization
- * Augmented Reality
- * 360 video player
 
 Requirements:
  * min Android SDK version: 21 (Android 5.0)

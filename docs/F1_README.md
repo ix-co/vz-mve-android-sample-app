@@ -1,6 +1,6 @@
 # Verizon Multi-View Experience
 
-Latest version is 1.1.42.93
+Latest version is 1.2.45.96
 
 Verizon Multi-View Experience is library which includes such functionality:
  * Multi-camera live streaming (several simultaneous video streams)

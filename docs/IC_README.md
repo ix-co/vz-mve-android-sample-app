@@ -1,6 +1,6 @@
 # Verizon Multi-View Experience
 
-Latest version is 1.4.49.100
+Latest version is 1.1.49.100
 
 
 Verizon Multi-View Experience is library which includes such functionality:
@@ -59,7 +59,7 @@ Add dependencies in the project:
 ```
 * Declare library dependency in `app/build.gradle` file:
 ```
-  implementation ("co.ix.vzmve:vzmve-f1:$version") {
+  implementation ("co.ix.vzmve:vzmve-ic:$version") {
     exclude group: "com.google.auto.value", module: "auto-value"
   }
 ```
@@ -298,7 +298,7 @@ MultiViewExperienceSdk.launchMultiViewExperience()
 ```
 * Add `verizon-multi-view-experience` dependency to the `app/build.gradle`:
 ```
-  implementation ("co.ix.vzmve:vzmve-f1:$version") {
+  implementation ("co.ix.vzmve:vzmve-ic:$version") {
     exclude group: "com.google.auto.value", module: "auto-value"
   }
 ```

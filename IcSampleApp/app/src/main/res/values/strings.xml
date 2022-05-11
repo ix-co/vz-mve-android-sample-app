@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Verizon 5G Multi-View IC Sample app</string>
+    <string name="run_vzmve_button_label">Run Verizon 5G Multi-View</string>
+    <string name="vzmve_cta_button_label">Verizon 5G Multi-View CTA</string>
+</resources>

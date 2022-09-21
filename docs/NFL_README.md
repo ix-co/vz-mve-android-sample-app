@@ -1,6 +1,6 @@
 # Verizon Multi-View Experience
 
-Latest version is 3.1.49.100
+Latest version is 3.1.57.112
 
 
 Verizon Multi-View Experience is library which includes such functionality:
